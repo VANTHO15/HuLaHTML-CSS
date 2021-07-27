@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0;} 
+
+.motkhoi{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+.motkhoi img{
+    width: 200px;
+}
+.motkhoi h3{
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+}
+
+/* có 6 khối muốn cắt 3 thì width = 220*3 */
+.bo{
+    width: 660px;
+}
+.cangiua{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;} 
+.to{
+    display: flex;
+    justify-content: center;
+}
+.myslide{
+    width: 500px;
+    height: 500px;
+}
+.myslide img{
+    width: 500px;
+    
+}

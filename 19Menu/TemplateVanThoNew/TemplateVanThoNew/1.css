@@ -1,0 +1,41 @@
+*{margin:0;padding: 0;}
+
+ /* Begin Menu */
+ .navbar-default .navbar-brand {
+    padding-top: 44px;
+    font-size: 27px;
+    text-transform: uppercase; 
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #18bb9c;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase; 
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #18bb9c;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 30px;
+}
+
+nav.navbar.navbar-default {
+    height: 111px;
+    background: #2d3e50;
+}
+/* End menu */
+
+ 
+
+ 

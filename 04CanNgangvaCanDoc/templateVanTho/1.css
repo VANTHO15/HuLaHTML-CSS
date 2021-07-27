@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;} 
+.khung{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-image: url(images/1.jpg);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khung .noidung{
+    color: aqua;
+    font-size: 20px;
+
+}

@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;} 
+.content{
+    width: 600px;
+    background: chartreuse;
+    padding: 20px;
+    transition: 0.4s;
+}
+/* màn hình nhỏ hơn 992px thì dùng thuộc tính css này */
+@media (max-width:992px) 
+{
+    .content{
+        width: 200px;
+        background: rgb(0, 162, 255);
+        padding: 20px;
+    }
+}

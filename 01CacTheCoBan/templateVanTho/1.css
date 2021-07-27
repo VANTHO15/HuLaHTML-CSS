@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0;} 
+.cangiua{
+    display: flex;
+    justify-content: center;
+}
+.bo{
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.bo .nhom1{
+    width: 200px;
+}
+.bo .nhom2{
+    width: 200px;
+}
+.bo .nhom3{
+    width: 200px;
+}
+.bo .nhom1 img{
+    width: 200px;
+}
+.bo .nhom2 img{
+    width: 200px;
+}
+.bo .nhom3 img{
+    width: 200px;
+}
+.bo .nhom1 h4{
+    font-size: 15px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bo .nhom2 h4{
+    font-size: 15px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bo .nhom3 h4{
+    font-size: 15px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

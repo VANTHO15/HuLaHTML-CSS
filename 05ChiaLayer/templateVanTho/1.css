@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;} 
+.bo{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.bo .lop1{
+    width: 500px;
+    height: 500px;
+}
+.bo .lop2{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bo:hover .lop2{
+    opacity: 0.4; 
+}
+.bo .lop3{
+    color: white;
+    font-size: 70px;
+
+    position: absolute;
+    top: 228px;
+    left: 210px;
+
+    transition: 0.4s;
+    transform: scale(0);
+    opacity: 0;
+    visibility: ;
+}
+.bo:hover .lop3{
+    transform: scale(1);
+    opacity: 1;
+}

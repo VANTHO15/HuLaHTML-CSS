@@ -1,0 +1,145 @@
+*{margin:0;padding:0; }
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: black;
+    color: white;
+}
+
+.noidung a.btn.btn-default.rm {
+    border-radius: 2px;
+    color: #2e3f51;
+    border: 1px solid black;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    font-family: myriad pro;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 29px;
+}
+
+.noidung a.btn.btn-default.rm:hover {
+    color: white;
+}
+
+.noidung .caption p {
+    color: #a2aeba;
+    font-size: 13px;
+}
+
+.thongtinbv {
+    color: #a2aeba;
+    margin-bottom: 12px;
+}
+
+.noidung h3 {
+    margin: 0;
+    margin-top: 27px;
+    font-size: 21px;
+    color: #2d4051;
+    margin-bottom: 19px;
+}
+
+.noidung .caption {
+    padding: 0;
+}
+
+.thumbnail {
+    border: none;
+    padding: 0;
+}
+
+ol.breadcrumb {
+    background: none;
+    padding-top: 26px;
+}
+
+.breadcrumb > .active {
+    color: white;
+}
+
+.breadcrumb > .active {}
+
+ol.breadcrumb a {
+    color: white;
+}
+
+.breadcrumb > li + li:before {content: "\f105";display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;color: white;}
+
+.info h3 .fa.fa-bars {
+    background: white;
+    color: gray;
+    padding: 10px 12px;
+    font-size: 21px;
+    border-radius: 7px;
+}
+
+.info h3 {
+    font-size: 39px;
+}
+
+.info {
+    padding: 44px 0;
+    background: #27B899;
+    color: white;
+    margin-bottom: 102px;
+}
+
+.navbar-brand > img {
+    transition: 0.4s;
+    width: 100%;
+}
+
+.navbar-default {
+    background: white;
+    border-bottom: 0px solid transparent;
+}
+
+.navbar-default .navbar-brand {
+    padding: 0px;
+}
+
+.icon i {
+    padding: 0 12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 5px solid transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 24px;
+    transition: 0.4s;
+    color: #a0b1bb;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #27B899;
+    border-color: #27B899;
+}
+
+.icon {
+    float: left;
+    padding-top: 36px;
+    font-size: 22px;
+    padding-left: 12px;
+    color: #a0b1bb;
+}
+ 
+
+ @media (max-width:767px) {
+    *{}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 9px 0;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar-brand > img {
+    width: 70%;
+    margin-top: -12px;
+}
+ }
