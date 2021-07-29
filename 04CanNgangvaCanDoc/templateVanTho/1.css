@@ -6,7 +6,7 @@
     background-image: url(images/1.jpg);
     
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .khung .noidung{
